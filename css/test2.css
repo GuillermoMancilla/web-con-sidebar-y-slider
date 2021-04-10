@@ -1,0 +1,30 @@
+.banner{
+    width: 700px;
+    height: 250px;
+    background-size: cover;
+    border: 3px solid blue;
+    animation: banner 10s infinite;
+    margin: auto;
+}
+
+@keyframes banner{
+    0%, 30% {
+        background-image: url(../assets/design1_image2.jpg);
+        opacity: 1;
+    }
+    31%, 34% {
+        opacity: 0.1;
+    }
+    35%, 65% {
+        background-image: url(../assets/design2_image2.jpg);
+        opacity: 1;
+    }
+    66%, 69% {
+        opacity: 0.1;
+    }
+    70%, 100% {
+        background-image: url(../assets/soccer+banner.png);
+        opacity: 1;
+    }
+
+}
